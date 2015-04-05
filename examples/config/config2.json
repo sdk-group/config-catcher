@@ -1,0 +1,81 @@
+{
+    "iris": "/var/www/iris",
+    "appHost": "127.0.0.1",
+    "httpProto": "http://",
+    "__timezone.comment": "The timezone actually set on the server side.",
+    "timezone": "Asia/Novosibirsk",
+    "__defaultDatabase.comment": "The database index, used by default, if no database is specified by the caller.",
+    "__defaultDatabase.commented": "1",
+    "database": {
+        "user": "phppgadmin",
+        "password": "123456",
+        "host": "localhost",
+        "port": 5432,
+        "database": "tomsk20140314"
+    },
+    "__database.commented.out": {
+        "1": {
+            "user": "phppgadmin",
+            "password": "123456",
+            "host": "localhost",
+            "port": 5432,
+            "database": "tomsk20140314"
+        },
+        "11": {
+            "user": "phppgadmin",
+            "password": "123456",
+            "host": "localhost",
+            "port": 5432,
+            "database": "tomsk20140314"
+        },
+        "12": {
+            "user": "phppgadmin",
+            "password": "123456",
+            "host": "localhost",
+            "port": 5432,
+            "database": "eq2_chuv"
+        }
+    },
+    "kb": {
+        "rpc_kb_get_queue": "iris_rpc_kb_get_queue",
+        "__qa.comment": "questionGroup.mkgu.questions for vashkontrol or questionGroup.mo for Moscow",
+        "qa": "questionGroup.mkgu.questions"
+    },
+    "amqp": {
+        "enabled": false,
+        "namespace": "iris",
+        "host": "localhost",
+        "iris_raw_events": "amq.topic"
+    },
+    "timeServer": {
+        "enabled": true,
+        "intervalPeriod": 10000
+    },
+    "xmlrpc": {
+        "enabled": true,
+        "url": "http://localhost/iris/equeue_ui/xmlrpc.php",
+        "auth": {
+            "login": "",
+            "password": ""
+        },
+        "port": 9090
+    },
+    "cybercaller": {
+        "enabled": false,
+        "soap_host": "localhost",
+        "msg_sha": "dafd572a27e71fd27d1621d77dc805258a31e8d6",
+        "intervalPeriod": 10000
+    },
+    "skat": {
+        "enabled": false,
+        "db": {
+            "user": "skt",
+            "password": "q_XiM_SkT_13Hgf",
+            "server": "srv2",
+            "database": "dbqueue"
+        },
+        "symbolCount": 4,
+        "notReadySymbol": " ",
+        "readySymbol": "-"
+    }
+}

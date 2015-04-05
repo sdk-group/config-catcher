@@ -1,0 +1,29 @@
+{
+  "name": "config-catcher",
+  "version": "1.0.0",
+  "description": " Keeping and hot-loading config files to proxy configs for external modules.",
+  "main": "catcher.js",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "is-my-json-valid": "^2.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdk-group/config-catcher.git"
+  },
+  "keywords": [
+    "configuration",
+    "watch",
+    "hot-loading"
+  ],
+  "author": "V.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdk-group/config-catcher/issues"
+  },
+  "homepage": "https://github.com/sdk-group/config-catcher"
+}

@@ -1,0 +1,327 @@
+{
+    "id": "",
+    "type": "object",
+    "properties": {
+        "iris": {
+            "id": "/iris",
+            "type": "string"
+        },
+        "appHost": {
+            "id": "/appHost",
+            "type": "string"
+        },
+        "httpProto": {
+            "id": "/httpProto",
+            "type": "string"
+        },
+        "__timezone.comment": {
+            "id": "/__timezone.comment",
+            "type": "string"
+        },
+        "timezone": {
+            "id": "/timezone",
+            "type": "string"
+        },
+        "__defaultDatabase.comment": {
+            "id": "/__defaultDatabase.comment",
+            "type": "string"
+        },
+        "__defaultDatabase.commented": {
+            "id": "/__defaultDatabase.commented",
+            "type": "string"
+        },
+        "database": {
+            "id": "/database",
+            "type": "object",
+            "properties": {
+                "user": {
+                    "id": "/database/user",
+                    "type": "string"
+                },
+                "password": {
+                    "id": "/database/password",
+                    "type": "string"
+                },
+                "host": {
+                    "id": "/database/host",
+                    "type": "string"
+                },
+                "port": {
+                    "id": "/database/port",
+                    "type": "integer"
+                },
+                "database": {
+                    "id": "/database/database",
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "__database.commented.out": {
+            "id": "/__database.commented.out",
+            "type": "object",
+            "properties": {
+                "1": {
+                    "id": "/__database.commented.out/1",
+                    "type": "object",
+                    "properties": {
+                        "user": {
+                            "id": "/__database.commented.out/1/user",
+                            "type": "string"
+                        },
+                        "password": {
+                            "id": "/__database.commented.out/1/password",
+                            "type": "string"
+                        },
+                        "host": {
+                            "id": "/__database.commented.out/1/host",
+                            "type": "string"
+                        },
+                        "port": {
+                            "id": "/__database.commented.out/1/port",
+                            "type": "integer"
+                        },
+                        "database": {
+                            "id": "/__database.commented.out/1/database",
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "11": {
+                    "id": "/__database.commented.out/11",
+                    "type": "object",
+                    "properties": {
+                        "user": {
+                            "id": "/__database.commented.out/11/user",
+                            "type": "string"
+                        },
+                        "password": {
+                            "id": "/__database.commented.out/11/password",
+                            "type": "string"
+                        },
+                        "host": {
+                            "id": "/__database.commented.out/11/host",
+                            "type": "string"
+                        },
+                        "port": {
+                            "id": "/__database.commented.out/11/port",
+                            "type": "integer"
+                        },
+                        "database": {
+                            "id": "/__database.commented.out/11/database",
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "12": {
+                    "id": "/__database.commented.out/12",
+                    "type": "object",
+                    "properties": {
+                        "user": {
+                            "id": "/__database.commented.out/12/user",
+                            "type": "string"
+                        },
+                        "password": {
+                            "id": "/__database.commented.out/12/password",
+                            "type": "string"
+                        },
+                        "host": {
+                            "id": "/__database.commented.out/12/host",
+                            "type": "string"
+                        },
+                        "port": {
+                            "id": "/__database.commented.out/12/port",
+                            "type": "integer"
+                        },
+                        "database": {
+                            "id": "/__database.commented.out/12/database",
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "kb": {
+            "id": "/kb",
+            "type": "object",
+            "properties": {
+                "rpc_kb_get_queue": {
+                    "id": "/kb/rpc_kb_get_queue",
+                    "type": "string"
+                },
+                "__qa.comment": {
+                    "id": "/kb/__qa.comment",
+                    "type": "string"
+                },
+                "qa": {
+                    "id": "/kb/qa",
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "amqp": {
+            "id": "/amqp",
+            "type": "object",
+            "properties": {
+                "enabled": {
+                    "id": "/amqp/enabled",
+                    "type": "boolean"
+                },
+                "namespace": {
+                    "id": "/amqp/namespace",
+                    "type": "string"
+                },
+                "host": {
+                    "id": "/amqp/host",
+                    "type": "string"
+                },
+                "iris_raw_events": {
+                    "id": "/amqp/iris_raw_events",
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        },
+        "timeServer": {
+            "id": "/timeServer",
+            "type": "object",
+            "properties": {
+                "enabled": {
+                    "id": "/timeServer/enabled",
+                    "type": "boolean"
+                },
+                "intervalPeriod": {
+                    "id": "/timeServer/intervalPeriod",
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false
+        },
+        "xmlrpc": {
+            "id": "/xmlrpc",
+            "type": "object",
+            "properties": {
+                "enabled": {
+                    "id": "/xmlrpc/enabled",
+                    "type": "boolean"
+                },
+                "url": {
+                    "id": "/xmlrpc/url",
+                    "type": "string"
+                },
+                "auth": {
+                    "id": "/xmlrpc/auth",
+                    "type": "object",
+                    "properties": {
+                        "login": {
+                            "id": "/xmlrpc/auth/login",
+                            "type": "string"
+                        },
+                        "password": {
+                            "id": "/xmlrpc/auth/password",
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "port": {
+                    "id": "/xmlrpc/port",
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false
+        },
+        "cybercaller": {
+            "id": "/cybercaller",
+            "type": "object",
+            "properties": {
+                "enabled": {
+                    "id": "/cybercaller/enabled",
+                    "type": "boolean"
+                },
+                "soap_host": {
+                    "id": "/cybercaller/soap_host",
+                    "type": "string"
+                },
+                "msg_sha": {
+                    "id": "/cybercaller/msg_sha",
+                    "type": "string"
+                },
+                "intervalPeriod": {
+                    "id": "/cybercaller/intervalPeriod",
+                    "type": "integer"
+                }
+            },
+            "additionalProperties": false
+        },
+        "skat": {
+            "id": "/skat",
+            "type": "object",
+            "properties": {
+                "enabled": {
+                    "id": "/skat/enabled",
+                    "type": "boolean"
+                },
+                "db": {
+                    "id": "/skat/db",
+                    "type": "object",
+                    "properties": {
+                        "user": {
+                            "id": "/skat/db/user",
+                            "type": "string"
+                        },
+                        "password": {
+                            "id": "/skat/db/password",
+                            "type": "string"
+                        },
+                        "server": {
+                            "id": "/skat/db/server",
+                            "type": "string"
+                        },
+                        "database": {
+                            "id": "/skat/db/database",
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "symbolCount": {
+                    "id": "/skat/symbolCount",
+                    "type": "integer"
+                },
+                "notReadySymbol": {
+                    "id": "/skat/notReadySymbol",
+                    "type": "string"
+                },
+                "readySymbol": {
+                    "id": "/skat/readySymbol",
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+    "iris",
+    "appHost",
+    "httpProto",
+    "__timezone.comment",
+    "timezone",
+    "__defaultDatabase.comment",
+    "__defaultDatabase.commented",
+    "database",
+    "__database.commented.out",
+    "kb",
+    "amqp",
+    "timeServer",
+    "xmlrpc",
+    "cybercaller",
+    "skat"
+  ]
+}

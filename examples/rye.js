@@ -2,7 +2,10 @@
 
 //just to test
 
-var catcher = require("../catcher")("event");
+var catcher = require("../catcher")({
+    watch: "poll",
+    validate: "jschema"
+});
 var path = require("path");
 var couchbase = require("couchbase");
 var myCluster = new couchbase.Cluster('couchbase://localhost');
@@ -30,6 +33,6 @@ function customRestore(cfg_path) {
 
 catcher.configureBackup(true, customBack, customRestore);
 */
-catcher.watch(path.resolve(__dirname, "./config"));
+catcher.watchDir(path.resolve(__dirname, "./config"));
 
 //catcher.remove(path.normalize(__dirname + "/cfg1.json"));

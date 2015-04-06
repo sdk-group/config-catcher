@@ -15,7 +15,7 @@
     },
     "__database.commented.out": {
         "1": {
-            "user": "s",
+            "user": "s s",
             "password": "123456",
             "host": "localhost",
             "port": 5432,

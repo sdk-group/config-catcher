@@ -33,7 +33,7 @@ module.exports = {
     watchFile: function (config_path) {
         var cfg_name = path.parse(config_path).name;
         var self = this;
-
+        console.log("Adding watch on ", config_path);
         self.validator(config_path)
             .then(function (res) {
                 if (!res) {

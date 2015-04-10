@@ -3,8 +3,8 @@
 //just to test
 
 var catcher = require("../catcher")({
-    watch: "poll",
-    validate: "jschema"
+    watch: "event",
+    validate: "custom"
 });
 var path = require("path");
 var couchbase = require("couchbase");
